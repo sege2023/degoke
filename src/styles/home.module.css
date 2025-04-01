@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
+    /* margin-left: 0; */
+    background-color: blue;
+    text-align: left;
+    padding: 10px;
+}
+.me{
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+.projectshead{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* align-content: end; */
+    justify-self: left;
+    background-color: brown;
+    /* width: 400px; */
+    text-align: left;
+    padding: 10px;
+}
+.projectshead button{
+    width: 150px;
+    /* justify-content: s; */
+}
+
+.projectsheadDescription{
+    font-weight: 600;
+    font-size: 40px;
+}
