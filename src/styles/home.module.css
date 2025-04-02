@@ -3,14 +3,28 @@ body, html {
     padding: 0;
 }
 
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 900px) 1fr;
+    
+}
+.containerwrapper{
+    grid-column: 2;
+}
+
 .about{
+    width: 100%;
     display: flex;
     flex-direction: column;
     /* width: 400px; */
     /* margin-left: 0; */
-    background-color: blue;
+    /* background-color: blue; */
     text-align: left;
     padding: 10px;
+    border: 1px solid white;
+    /* max-width: 900px; */
+    /* grid-column: 2; */
 }
 .me{
     font-weight: 600;
@@ -23,7 +37,7 @@ body, html {
     justify-content: left;
     /* align-content: end; */
     justify-self: left;
-    background-color: brown;
+    /* background-color: brown; */
     /* width: 400px; */
     text-align: left;
     padding: 10px;
@@ -36,4 +50,38 @@ body, html {
 .projectsheadDescription{
     font-weight: 600;
     font-size: 40px;
+
+}
+.projectbody{
+    /* width: 100%; */
+    /* max-width: 900px; */
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px; */
+    /* max-width: 500px; */
+    /* justify-content: center; */
+    /* align-self: center; */
+    /* display: grid;
+    grid-template-columns: 
+      1fr 
+      minmax(auto, 900px) 
+      1fr; */
+}
+/* .projectbody > * {
+    grid-column: 2; /* Constrains content to middle column */
+  
+.projectcards{
+    /* height: 250px; */
+    /* width: 250px; */
+    /* background-color: bisque; */
+    border: 1px solid white;
+    margin: 10px;
+
+}
+.cardheader{
+
+}
+.card{
+    
 }

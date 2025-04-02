@@ -5,16 +5,18 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons"
 import { faRust } from "@fortawesome/free-brands-svg-icons"
 const Home = () => {
     return(
-        <>
+        <div className={styles.container}>
+            <div className={styles.containerwrapper}>
             <div className={styles.about}>
                 {/* Yokoso, boku no namae wa Abdulmalik */}
                 {/* Marhaba, esmi Abdulmalik             */}
                 <p className={styles.me}>
-                    <span>goke</span>
+                    <span>Goke</span>
                 </p>
-                <p>
+                <p>Engineering student at [readacted]. </p>
+                {/* <p>
                     "Cogito ergo sum"
-                </p>
+                </p> */}
             </div>
 
             <div className={styles.project}>
@@ -23,23 +25,37 @@ const Home = () => {
                         <span><FontAwesomeIcon icon={faBriefcase}/></span> 
                         <span>Projects</span>
                     </button>
-                    <p className={styles.projectsheadDescription}>Milestone in my learning Journey</p>
+                    <p className={styles.projectsheadDescription}>Milestones in my learning Journey</p>
 
                 </div>
                 <div className={styles.projectbody}>
-
+                    <div className={styles.projectcards}>
+                       <p>Povisuals </p>
+                    </div>
+                    <div className={styles.projectcards}>
+                       <p>Audiphile</p>
+                    </div>
+                    <div className={styles.projectcards}>
+                       <p>Arcix</p>
+                    </div>
                 </div>
             </div>
 
 
             <div className={styles.skillbox}>
+                
+            </div>
 
+            <div className={styles.blog}>
+                <div className={styles.blogheader}>
+
+                </div>
             </div>
 
 
-
             <Navbar/>
-        </>
+            </div>
+        </div>
     )
 }
 export default Home
