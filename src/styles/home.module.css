@@ -52,7 +52,7 @@ body, html {
     font-size: 40px;
 
 }
-.projectbody{
+
     /* width: 100%; */
     /* max-width: 900px; */
     /* display: grid;
@@ -67,7 +67,7 @@ body, html {
       1fr 
       minmax(auto, 900px) 
       1fr; */
-}
+
 /* .projectbody > * {
     grid-column: 2; /* Constrains content to middle column */
   
@@ -78,10 +78,4 @@ body, html {
     border: 1px solid white;
     margin: 10px;
 
-}
-.cardheader{
-
-}
-.card{
-    
 }

@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Navbar from "../layout/nav"
 import styles from '../styles/home.module.css'
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons"
-import { faRust } from "@fortawesome/free-brands-svg-icons"
+
 const Home = () => {
     return(
         <div className={styles.container}>
