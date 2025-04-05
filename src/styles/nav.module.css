@@ -3,13 +3,16 @@
     justify-content: center;
     gap: 20px;
     padding: 10px;
-    background: white;
+    background: black;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     width: 200px;
     justify-self: center;
+    /* align-self: center; */
+    margin: 0 auto;
+    /* align-content: center; */
     position: sticky;
-    bottom: 0; /* or top: 0 */
+    bottom: 0; 
     z-index: 100;
   }
   

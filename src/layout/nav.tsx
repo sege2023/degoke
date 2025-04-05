@@ -23,7 +23,7 @@ function Navbar() {
         <span className={styles.tooltip}>Twitter</span>
       </a>
 
-      <a href="" className={styles.navitem}
+      <a href="/blog" className={styles.navitem}
       onClick={(e) => {
         e.preventDefault();
         navigate('/blog');

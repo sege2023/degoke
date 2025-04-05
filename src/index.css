@@ -5,7 +5,15 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color:black;
+  /* background-color:black; */
+
+  background-color: #222222; /* Base dark color */
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.05) 1px,
+    transparent 1px
+  );
+  background-size: 100% 4px;
   /* background-color: #535bf2; */
 
   font-synthesis: none;
@@ -16,7 +24,8 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  /* color: #646cff; */
+  color: aquamarine;
   text-decoration: inherit;
 }
 a:hover {
