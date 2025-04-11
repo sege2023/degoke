@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "title": "Test",
+      "date": "07-04-25",
+      "tags": [],
+      "slug": "testing blogs",
+      "excerpt": "# DAY1\r\n\r\nso this is a test nothing much to see just navigate back or if i've uploaded another thing read that you get me. ADIOS...",
+      "contentUrl": "/posts/test.md"
+    }
+  ]
+}
